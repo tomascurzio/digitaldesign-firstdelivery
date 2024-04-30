@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #252525;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 6em;
+    color: #E9E9E9;
+    line-height: 0.8em;
+}
+
+h1,
+h2{
+    margin-bottom: 33px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 0.9em;
+    color: #E9E9E9;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #ECE7E7;
+}
+
+header {
+    width:85.71%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+main {
+    width:85.71%;
+    margin: auto;
+}
+
+#instagram-button {
+    background-color: #01A05D;
+    border: none;
+    color: #ECE7E7;
+    margin-top: 25px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    margin-bottom: 200px;
+}
+
+#instagram-button:hover {
+    background-color: #017041;
+}
+
+#section2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+#section2 img {
+    width: 100%;
+}
+
+#section3 h2,
+#section3 p  {
+    text-align: right;
+}
+
+img { 
+    border-radius: 35px;
+}
+
+.image-container {
+    margin:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 33px;
+}
+
+.image-container img {
+    height: auto;
+    margin-bottom: 20px;
+    width: 32,46%;
+    border: 1px solid #ECE7E7;
+}
+
+      @media screen and (max-width: 768px) {
+        .image-container {
+          flex-wrap: wrap;
+        }
+    
+        .image-container img {
+          max-width: 100%;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        body {
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+      }
+
+footer {
+    width: 100%;
+    background-color: #161515;
+    color: #E9E9E9;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
